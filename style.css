@@ -1,36 +1,42 @@
 h1 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.7;
 }
 p {
     font-family: 'PT Sans', sans-serif;
-    font-weight: 100;
-    font-size: 2vw;
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 36px;
 }
 a {
     color: black;
     text-decoration: none;
 }
 a:hover {
-    color: pink;
+    color: lightblue;
 }
 header {
-    background-color: #0373fc;
-    opacity: 0.8;
+    background-color: #585d6b;
     height: auto;
-    padding: 2vh 4vw;
+    padding: 1rem 4rem;
+}
+header > h1 {
+    font-size: 55px;
 }
 .main-content {
-    background-image: url('wood_rectangular.jpg');
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ), url('wood_landscape.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: auto;
+    height: 60vh;
     max-width: 100%;
     text-align: center;
-    padding: 14vh 2vw 20vh 2vw;
+    padding: 1rem 2rem 1rem 2rem;
 }
 .white {
     color: white;
@@ -39,11 +45,16 @@ header {
     height: 50%;
     margin: auto;
 }
-
+.email {
+    padding-bottom: 1rem;
+}
 footer {
-    background-color: #0373fc;
+    background-color: #585d6b;
     text-align: right;
-    opacity: 0.8;
+    line-height: 1.4;
     height: auto;
-    padding: 2vh 4vw;
+    padding: 1rem 4rem 1rem 4rem;
+}
+footer > h1 {
+    font-size: 40px;
 }
