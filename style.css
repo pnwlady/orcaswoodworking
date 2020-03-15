@@ -1,8 +1,8 @@
 h1 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
-    font-size: 45px;
-    line-height: 1.7;
+    font-size: 40px;
+    line-height: 1.1;
 }
 p {
     font-family: 'PT Sans', sans-serif;
@@ -19,24 +19,25 @@ a:hover {
 }
 header {
     background-color: #585d6b;
-    height: auto;
-    padding: 1rem 4rem;
+    max-height: 14vh;
+    padding: 3px 4em 1rem 4em;
 }
 header > h1 {
     font-size: 55px;
+    line-height: 1.7;
 }
 .main-content {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
-      ), url('wood_landscape.jpg');
+      ), url('wood_landscape_compressed.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     height: 60vh;
     max-width: 100%;
     text-align: center;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 4rem 2rem 1rem 2rem;
 }
 .white {
     color: white;
@@ -45,16 +46,27 @@ header > h1 {
     height: 50%;
     margin: auto;
 }
+.main-content-text > h1 {
+    font-size: 40px;
+}
 .email {
     padding-bottom: 1rem;
 }
 footer {
     background-color: #585d6b;
     text-align: right;
-    line-height: 1.4;
+    line-height: 1.1;
     height: auto;
-    padding: 1rem 4rem 1rem 4rem;
+    max-height: 30vh;
+    padding: .5rem 4em .5rem 4em;
+}
+.footer-text {
+    max-height: 20%;
 }
 footer > h1 {
-    font-size: 40px;
+    font-size: 12px;
+}
+footer > p > a {
+    font-weight: 100;
+    font-size: 28px;
 }
