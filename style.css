@@ -28,7 +28,7 @@ header {
 header > h1 {
     font-size: 4rem;
     font-weight: 600;
-    line-height: 1.7;
+    line-height: 1.4;
     flex-grow: inherit;
     flex-shrink: initial;
 }
